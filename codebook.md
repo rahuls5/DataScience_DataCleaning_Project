@@ -13,8 +13,8 @@ Packages used: sqldf and reshape2
 # 1. Merge the training and the test dataframes to create a single data frame 
 # 2. Clean the column names and activity descriptions
 # 3. Create the final dataset by merging subject, X, Y with all observations 
-# 3. Use descriptive activity names to name the activities in the data set
-# 4. Calculate mean of each subject by activity and write the raw data to a file 
+# 4. Use descriptive activity names to name the activities in the data set
+# 5. Calculate mean of each subject by activity and write the raw data to a file 
 ##########################################################################################################e 
 
 Variable names and functions have been appropriately commented in the run_analysis.R code file.
