@@ -6,7 +6,7 @@ assignment for the "Getting and Cleaning Data" course
 processes it (details below). The UCIHAR Dataset is the described as
 following from the source[1]:
 
-Packages used: sqldf and reshape,reshape2
+Packages used: sqldf and reshape2
 
 # run_analysis will perform the following steps on the UCI HAR Dataset downloaded from 
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
