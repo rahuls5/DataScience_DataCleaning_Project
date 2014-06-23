@@ -37,8 +37,9 @@ X_Train <- read.table("./train/X_train.txt")
 Y_Train <- read.table("./train/y_train.txt")
 
 #Read the files with features, activity labels
-features     = read.table('./features.txt',header=FALSE); #imports features.txt
-activityType = read.table('./activity_labels.txt',header=FALSE); #imports activity_labels.txt
+features = read.table("./features.txt", sep=""); features = features[,2];
+activityLabels = read.table("./activity_labels.txt", sep=""); 
+
 subject_Train = read.table('./train/subject_train.txt',header=FALSE); #imports subject_train.txt
 subject_Test = read.table('./test/subject_test.txt',header=FALSE); #imports subject_test.txt
 
@@ -48,10 +49,6 @@ Y = rbind(Y_Train,Y_Test)
 subject=rbind(subject_Train,subject_Test)
 
 #2. Clean the variable and column names
-
-#read the name the columns of the data and activity names
-features = read.table("./features.txt", sep=""); features = features[,2];
-activityLabels = read.table("./activity_labels.txt", sep=""); 
 
 
 #Assign easily comprehensible column names 
